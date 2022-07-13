@@ -1,0 +1,142 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Fredoka", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+
+  position: relative;
+}
+
+.hero {
+  background-image: url("../assets/hero_blk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 804px;
+}
+
+.stats {
+  background-image: url("../assets/community_blk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1066px;
+}
+
+.nft-system {
+  background-image: url("../assets/nft_system_blk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1152px;
+}
+
+.token-utilities {
+  background-image: url("../assets/token_blk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 744px;
+}
+
+.roadmap {
+  background-image: url("../assets/roadmap_blk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1137px;
+}
+
+.feature {
+  position: relative;
+
+  background-image: url("../assets/feature_blk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 824px;
+}
+
+.feature-icon-container {
+  position: absolute;
+  top: 95px;
+  left: 0px;
+  right: 0px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.feature-icon-wrapper {
+  width: 176px;
+  height: 176px;
+}
+
+.faqs {
+  background-image: url("../assets/faq_blk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 555px;
+}
+
+.faqs-left-wrapper {
+  margin-left: 112px;
+  width: 488px;
+  height: 555px;
+}
+
+.faqs-left-wrapper img {
+  border-radius: 40px 8px;
+}
+
+.backers {
+  background-image: url("../assets/backers_blk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 726px;
+}
+
+.the-team {
+  background-image: url("../assets/team_blk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 936px;
+}
+
+.news-letter {
+  background-image: url("../assets/newsletter_blk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 653px;
+}
+
+.footer {
+  background-image: url("../assets/footer_blk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 569px;
+}

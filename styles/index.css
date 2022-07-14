@@ -51,11 +51,20 @@ img {
 }
 
 .token-utilities {
+  position: relative;
   background-image: url("../assets/token_blk.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 744px;
+}
+
+.token-utilities .left-image-wrapper {
+  width: 384px;
+  height: 384px;
+  position: absolute;
+  top: 240px;
+  left: 274px;
 }
 
 .roadmap {
